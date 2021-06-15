@@ -1,0 +1,16 @@
+set nocompatible
+
+" highlight search results
+set hlsearch
+" Enable search as you type, rather than waiting till you press enter
+set incsearch
+" ignorecase when all characters in the string are lowercase
+" the search becomes case-sensitive if it contains any captical letters
+set ignorecase 
+set smartcase
+
+noremap <C-h> <C-w>h
+noremap <C-j> <C-w>j
+noremap <C-k> <C-w>k
+noremap <C-l> <C-w>l
+
