@@ -2,3 +2,10 @@
 [user]
     name = yuezhang
     email = yuezhang2333@gmail.com
+
+[alias]
+    st = status
+    graph = log --all --graph --decorate --oneline
+
+[core]
+    excludesfile = ~/.gitignore_global
