@@ -1,6 +1,7 @@
 - defaults:
     link:
       create: true
+      relink: true
 
 - clean:
     ~/:
@@ -16,4 +17,4 @@
     ~/.gitconfig: gitconfig
     ~/.config/kitty/kitty.conf: kitty.conf
     ~/.config/kitty/current-theme.conf: kitty-theme.conf
-    ~/Library/Application\ Support/Code/User/settings.json: vscode-settings.json
+    ~/Library/Application Support/Code/User/settings.json: vscode-settings.json
