@@ -3,11 +3,18 @@
       relink: true
       create: true
 
-- clean: ['~']
+- clean:
+    ~/:
+      force: true
+    ~/.config:
+      recursive: true
 
 - link:
-    ~/.tmux.conf: tmux.conf
+    ~/.zshrc: zshrc
     ~/.vimrc: vimrc
+    ~/.ideavimrc: ideavimrc
     ~/.inputrc: inputrc
     ~/.gitconfig: gitconfig
-    ~/.ideavimrc: ideavimrc
+    ~/.config/kitty/kitty.conf: kitty.conf
+    ~/.config/kitty/current-theme.conf: kitty-theme.conf
+    ~/Library/Application\ Support/Code/User/settings.json: vscode-settings.json

@@ -1,11 +1,18 @@
-# This is Git's per-user configuration file.
 [user]
-    name = yuezhang
-    email = yuezhang2333@gmail.com
+	name = YueZhang
+	email = yuezhang2333@gmail.com
 
 [alias]
     st = status
-    graph = log --all --graph --decorate --oneline
+    ci = commit
+    co = checkout
+    br = branch
 
 [core]
     excludesfile = ~/.gitignore_global
+
+[pager]
+    branch = false
+
+[pull]
+    rebase = true

@@ -1,0 +1,99 @@
+{
+  "window.zoomLevel": 0,
+
+  "files.autoSave": "afterDelay",
+  "files.trimTrailingWhitespace": true,
+
+  "editor.fontSize": 14,
+  "editor.fontLigatures": true,
+  "editor.tabSize": 4,
+  "editor.insertSpaces": true,
+  "editor.tabCompletion": "off",
+  "editor.suggestSelection": "first",
+  "editor.fontFamily": "Noto Sans Mono",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.minimap.enabled": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.rulers": [100],
+
+  "eslint.alwaysShowStatus": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+
+  "vim.hlsearch": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.easymotion": true,
+  "vim.sneak": true,
+  "vim.commandLineModeKeyBindings": [
+    {
+      "before": ["w", "Enter"],
+      "after": ["Enter"],
+      "commands": ["workbench.action.files.save"]
+    }
+  ],
+
+  "html.format.indentHandlebars": true,
+  "[html]": {
+    "editor.tabSize": 2
+  },
+
+  "[javascriptreact]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+
+  "[javascript]": {
+    "editor.tabSize": 2,
+    "editor.maxTokenizationLineLength": 2500,
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+
+  "[go]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "golang.go"
+  },
+
+  "go.toolsManagement.autoUpdate": true,
+  "go.lintTool": "golangci-lint",
+  "go.lintFlags": ["--fast"],
+  "go.lintOnSave": "package",
+  "go.formatTool": "goimports",
+  "go.useLanguageServer": true,
+  "go.alternateTools": {
+    "go-langserver": "gopls"
+  },
+
+  "python.languageServer": "Pylance",
+  "python.defaultInterpreterPath": "/usr/local/bin/python3",
+  "python.analysis.typeCheckingMode": "basic",
+  "python.formatting.provider": "autopep8",
+  "python.formatting.autopep8Args": [
+    "--max-line-length",
+    "100",
+    "--experimental"
+  ],
+
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontFamily": "Noto Sans Mono",
+
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+
+  "workbench.editor.enablePreview": false,
+  "workbench.startupEditor": "none",
+  "workbench.iconTheme": "material-icon-theme",
+
+  "workbench.colorCustomizations": {
+    "editor.background": "#2B2B2B",
+    "sideBar.background": "#313335",
+    "activityBar.background": "#3B3F41"
+  }
+}
