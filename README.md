@@ -49,7 +49,11 @@ swag fmt .
 ### Command Line Tools
 
 ```bash
-brew install tldr tree
+brew install cheat tree jq curl
+
+# intall tldr
+brew install node
+npm install -g tldr
 ```
 
 ### Desktop Application
