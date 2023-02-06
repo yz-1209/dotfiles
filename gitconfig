@@ -16,3 +16,6 @@
 
 [pull]
     rebase = true
+
+[url "ssh://gitlab@git.garena.com/"]
+    insteadOf = https://git.garena.com/

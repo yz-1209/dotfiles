@@ -57,7 +57,6 @@ npm install -g tldr
 ```
 
 ### Desktop Application
-- Input Source Pro
 - Alfred
 - [Monitor Control](https://github.com/MonitorControl/MonitorControl)
 - Hammperspoon
