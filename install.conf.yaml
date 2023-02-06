@@ -10,25 +10,26 @@
       recursive: true
 
 - link:
-    ~/.zshrc: zshrc
-    ~/.vimrc: vimrc
-    ~/.ideavimrc: ideavimrc
-    ~/.tldrrc: tldrrc.json
-    ~/.gitconfig: gitconfig
+    ~/.zshrc: configs/zshrc
+    ~/.vimrc: configs/vimrc
+    ~/.ideavimrc: configs/ideavimrc
+    ~/.tldrrc: configs/tldrrc.json
+    ~/.gitconfig: configs/gitconfig
 
     # hammerspoon
     ~/.hammerspoon/init.lua:
       if: '[ `uname` = Darwin ]'
-      path: hammerspoon.lua
+      path: configs/hammerspoon.lua
 
     # kitty
-    ~/.config/kitty/kitty.conf: kitty.conf
-    ~/.config/kitty/current-theme.conf: kitty-theme.conf
+    ~/.config/kitty:
+      glob: true
+      path: configs/kitty/*
 
     # VSCode
     ~/Library/Application Support/Code/User/settings.json:
       if: '[ `uname` = Darwin ]'
-      path: vscode-settings.json
+      path: configs/vscode-settings.json
     ~/.config/Code/User/settings.json:
       if: '[ `uname` = Linux ]'
-      path: vscode-settings.json
+      path: configs/vscode-settings.json
