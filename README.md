@@ -1,10 +1,10 @@
 # Dotfiles
 
-This is my dotfiles, managed by using [Dotbot](https://github.com/anishathalye/dotbot#getting-started).
+This is my personal dotfiles, managed by using [Dotbot](https://github.com/anishathalye/dotbot#getting-started).
 
 ## Install
 
-You can easily install all dotfiles by typing the following commands.
+Intall all the dotfiles:
 
 ```bash
 mkdir .dotfiles
