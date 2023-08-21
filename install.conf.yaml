@@ -18,7 +18,7 @@
 
     # hammerspoon
     ~/.hammerspoon/init.lua:
-      if: '[ `uname` = Darwin ]'
+      if: "[ `uname` = Darwin ]"
       path: configs/hammerspoon.lua
 
     # kitty
@@ -28,8 +28,8 @@
 
     # VSCode
     ~/Library/Application Support/Code/User/settings.json:
-      if: '[ `uname` = Darwin ]'
+      if: "[ `uname` = Darwin ]"
       path: configs/vscode-settings.json
     ~/.config/Code/User/settings.json:
-      if: '[ `uname` = Linux ]'
+      if: "[ `uname` = Linux ]"
       path: configs/vscode-settings.json
