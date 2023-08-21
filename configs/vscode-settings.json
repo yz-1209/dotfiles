@@ -139,17 +139,16 @@
     "go-langserver": "gopls"
   },
 
+  "[python]": {
+    "editor.formatOnType": true,
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+
   "python.languageServer": "Pylance",
-  "python.defaultInterpreterPath": "/usr/local/bin/python3",
+  "python.defaultInterpreterPath": "/usr/local/bin/python3.10",
   "python.analysis.typeCheckingMode": "basic",
   "python.analysis.autoImportCompletions": true,
   "python.testing.pytestEnabled": true,
-  "python.formatting.provider": "autopep8",
-  "python.formatting.autopep8Args": [
-    "--max-line-length",
-    "100",
-    "--experimental"
-  ],
 
   "terminal.integrated.fontSize": 14,
   "terminal.integrated.fontFamily": "Noto Sans Mono",
