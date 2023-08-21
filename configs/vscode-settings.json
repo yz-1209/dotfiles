@@ -10,7 +10,7 @@
   "editor.insertSpaces": true,
   "editor.tabCompletion": "off",
   "editor.suggestSelection": "first",
-  "editor.fontFamily": "Noto Sans Mono",
+  "editor.fontFamily": "NotoSansMono Nerd Font",
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
   "editor.minimap.enabled": false,
