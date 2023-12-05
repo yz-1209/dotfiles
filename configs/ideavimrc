@@ -1,16 +1,58 @@
-set nocompatible
+" map leader to space
+let mapleader=" "
+
+" plugins 
+set surround
+set commentary
+set NERDTree
 
 " highlight search results
 set hlsearch
-" Enable search as you type, rather than waiting till you press enter
+
+" enable search as you type, rather than waiting till you press enter
 set incsearch
+
 " ignorecase when all characters in the string are lowercase
-" the search becomes case-sensitive if it contains any captical letters
 set ignorecase 
+
+" the search becomes case-sensitive if it contains any captical letters
 set smartcase
 
+" set the number of lines above and below the cursor
+set scrolloff=10
+
+" show line numbers
+set number
+
+" show mode
+set showmode
+
+" idea specific settings
+set ideajoin
+set ideastatusicon=gray
+set idearefactormode=keep
+
+" switch between windows
 noremap <C-h> <C-w>h
 noremap <C-j> <C-w>j
 noremap <C-k> <C-w>k
 noremap <C-l> <C-w>l
 
+" switch between tabs
+noremap <S-h> :<C-U>tabprevious<CR>
+noremap <S-l> :<C-U>tabnext<CR>
+
+" rename action
+nmap rn <Action>(RenameElement)
+
+" show error message 
+nmap gl <Action>(ShowErrorDescription) 
+
+" go to the interface implementation
+nmap gi <Action>(GotoImplementation)
+
+" format the code
+map \r <Action>(ReformatCode)
+
+" open the project file tree
+map <leader>e :NERDTree<CR>
