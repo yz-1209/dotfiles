@@ -1,5 +1,5 @@
 [user]
-	name = ZhangYue
+	name = zhangyue
 	email = yuezhang2333@gmail.com
 
 [alias]
@@ -16,6 +16,3 @@
 
 [pull]
     rebase = true
-
-[url "ssh://gitlab@git.garena.com/"]
-    insteadOf = https://git.garena.com/
