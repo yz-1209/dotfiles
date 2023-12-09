@@ -14,7 +14,7 @@
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
   "editor.minimap.enabled": false,
-  "editor.inlayHints.enabled": false,
+  "editor.inlayHints.enabled": "off",
 
   "terminal.integrated.fontSize": 14,
   "terminal.integrated.fontFamily": "NotoMono Nerd Font",
@@ -25,12 +25,7 @@
   "workbench.editor.enablePreview": false,
   "workbench.startupEditor": "none",
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.colorTheme": "Default Dark+",
-  "workbench.colorCustomizations": {
-    "editor.background": "#2B2B2B",
-    "sideBar.background": "#313335",
-    "activityBar.background": "#3B3F41"
-  },
+  "workbench.colorTheme": "Kanagawa",
 
   "vim.leader": "<Space>",
   "vim.hlsearch": true,

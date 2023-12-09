@@ -11,16 +11,15 @@
 
 - link:
     ~/.zshrc: configs/zshrc
-    ~/.vimrc: configs/vimrc
     ~/.ideavimrc: configs/ideavimrc
     ~/.tldrrc: configs/tldrrc.json
     ~/.gitconfig: configs/gitconfig
-    ~/.hammerspoon/init.lua:
-      if: "[ `uname` = Darwin ]"
-      path: configs/hammerspoon.lua
     ~/.config/kitty:
       glob: true
       path: configs/kitty/*
+    ~/.hammerspoon/init.lua:
+      if: "[ `uname` = Darwin ]"
+      path: configs/hammerspoon.lua
     ~/Library/Application Support/Code/User/settings.json:
       if: "[ `uname` = Darwin ]"
       path: configs/vscode-settings.json
