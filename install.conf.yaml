@@ -15,21 +15,12 @@
     ~/.ideavimrc: configs/ideavimrc
     ~/.tldrrc: configs/tldrrc.json
     ~/.gitconfig: configs/gitconfig
-
-    # hammerspoon
     ~/.hammerspoon/init.lua:
       if: "[ `uname` = Darwin ]"
       path: configs/hammerspoon.lua
-
-    # kitty
     ~/.config/kitty:
       glob: true
       path: configs/kitty/*
-
-    # VSCode
     ~/Library/Application Support/Code/User/settings.json:
       if: "[ `uname` = Darwin ]"
-      path: configs/vscode-settings.json
-    ~/.config/Code/User/settings.json:
-      if: "[ `uname` = Linux ]"
       path: configs/vscode-settings.json
