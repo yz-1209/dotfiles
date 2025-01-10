@@ -1,12 +1,9 @@
 {
   "window.zoomLevel": 0,
 
-  "files.autoSave": "afterDelay",
-  "files.trimTrailingWhitespace": true,
-
-  "editor.fontSize": 14,
+  "editor.fontSize": 13.5,
   "editor.fontLigatures": true,
-  "editor.fontFamily": "NotoMono Nerd Font",
+  "editor.fontFamily": "Cousine Nerd Font",
   "editor.tabSize": 4,
   "editor.insertSpaces": true,
   "editor.tabCompletion": "off",
@@ -15,9 +12,10 @@
   "editor.formatOnPaste": true,
   "editor.minimap.enabled": false,
   "editor.inlayHints.enabled": "off",
+  "editor.unicodeHighlight.nonBasicASCII": false,
 
-  "terminal.integrated.fontSize": 14,
-  "terminal.integrated.fontFamily": "NotoMono Nerd Font",
+  "terminal.integrated.fontSize": 13.5,
+  "terminal.integrated.fontFamily": "Cousine Nerd Font",
 
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
@@ -41,18 +39,6 @@
     }
   ],
   "vim.normalModeKeyBindingsNonRecursive": [
-    {
-      "before": ["J"],
-      "after": ["5", "j"]
-    },
-    {
-      "before": ["K"],
-      "after": ["5", "k"]
-    },
-    {
-      "before": ["<Leader>", "j"],
-      "after": ["J"]
-    },
     {
       "before": ["<C-h>"],
       "after": ["<C-w>", "h"]
@@ -131,5 +117,8 @@
   "[python]": {
     "editor.formatOnType": true,
     "editor.defaultFormatter": "ms-python.black-formatter"
-  }
+  },
+
+  "java.inlayHints.parameterNames.enabled": "none",
+  "redhat.telemetry.enabled": true
 }
