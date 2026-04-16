@@ -11,10 +11,11 @@
 
 - link:
     ~/.zshrc: configs/zshrc
-    ~/.p10k.zsh: configs/p10k.zsh
+    ~/.config/starship.toml: configs/starship.toml
     ~/.ideavimrc: configs/ideavimrc
     ~/.gitconfig: configs/gitconfig
     ~/.config/kitty/kitty.conf: configs/kitty.conf
+    ~/.config/ghostty/config: configs/ghostty/config
     ~/Library/Application Support/Code/User/settings.json:
       if: "[ `uname` = Darwin ]"
       path: configs/vscode-settings.json
